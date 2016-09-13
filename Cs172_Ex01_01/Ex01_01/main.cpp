@@ -204,6 +204,7 @@ void ex05()
 	int sum = 0;
 	int product = 1;
 
+	// This is a change
 	std::cout << "Please enter 5 numbers\n";
 
 	for (int i = 0; i <= 4; i++)
