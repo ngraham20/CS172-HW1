@@ -204,6 +204,7 @@ void ex05()
 	int sum = 0;
 	int product = 1;
 
+	// a) ---------------------------------------------------
 	std::cout << "Please enter 5 numbers\n";
 
 	for (int i = 0; i <= 4; i++)
@@ -213,6 +214,7 @@ void ex05()
 		ARRAY[i] = input;
 	}
 
+	// b) ---------------------------------------------------
 	for (int i = 0; i <= 4; i++)
 	{
 		sum += ARRAY[i];
@@ -225,8 +227,10 @@ void ex05()
 	}
 	std::cout << "Array Product: " << product << std::endl;
 
+	// c) ---------------------------------------------------
 	arrayInput(ARRAY, 5);
 
+	// d) ---------------------------------------------------
 	arrayContents(ARRAY, 5);
 
 	return;
